@@ -18,12 +18,12 @@
 
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
     </nav>
 
-    <div class="container">    
+    <div class="container">
       <div class="row">
 
         <div class="card-consultar-chamado">
@@ -31,9 +31,9 @@
             <div class="card-header">
               Consulta de chamado
             </div>
-            
+
             <div class="card-body">
-              
+
               <div class="card mb-3 bg-light">
                 <div class="card-body">
                   <h5 class="card-title">Título do chamado...</h5>

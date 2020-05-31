@@ -18,12 +18,12 @@
 
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="../../assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
     </nav>
 
-    <div class="container">    
+    <div class="container">
       <div class="row">
 
         <div class="card-abrir-chamado">
@@ -34,13 +34,13 @@
             <div class="card-body">
               <div class="row">
                 <div class="col">
-                  
+
                   <form>
                     <div class="form-group">
                       <label>Título</label>
                       <input type="text" class="form-control" placeholder="Título">
                     </div>
-                    
+
                     <div class="form-group">
                       <label>Categoria</label>
                       <select class="form-control">
@@ -51,7 +51,7 @@
                         <option>Rede</option>
                       </select>
                     </div>
-                    
+
                     <div class="form-group">
                       <label>Descrição</label>
                       <textarea class="form-control" rows="3"></textarea>
