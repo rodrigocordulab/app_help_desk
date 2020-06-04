@@ -1,11 +1,4 @@
-<?php
-    session_start();
-
-    if(!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM'){
-    header('Location: ../index.php?login=erro2');
-    }
-
- ?>
+<? require_once "./services/validador_acesso.php" ?>
 
 
 <html>
@@ -44,10 +37,14 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 d-flex justify-content-center">
+                  <a href="../abrirChamado/abrir_chamado.php">
                   <img src="../../assets/formulario_abrir_chamado.png" width="70" height="70">
+                </a>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
+                  <a href="../consultarChamado/consultar_chamado.php">
                   <img src="../../assets/formulario_consultar_chamado.png" width="70" height="70">
+                </a>
                 </div>
               </div>
             </div>
